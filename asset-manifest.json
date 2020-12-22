@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/dashboard/static/js/main.637b049e.chunk.js",
-    "main.js.map": "/dashboard/static/js/main.637b049e.chunk.js.map",
+    "main.js": "/dashboard/static/js/main.cd1389ff.chunk.js",
+    "main.js.map": "/dashboard/static/js/main.cd1389ff.chunk.js.map",
     "runtime-main.js": "/dashboard/static/js/runtime-main.9c8f0810.js",
     "runtime-main.js.map": "/dashboard/static/js/runtime-main.9c8f0810.js.map",
-    "static/js/2.f3fc7c70.chunk.js": "/dashboard/static/js/2.f3fc7c70.chunk.js",
-    "static/js/2.f3fc7c70.chunk.js.map": "/dashboard/static/js/2.f3fc7c70.chunk.js.map",
+    "static/js/2.78f02286.chunk.js": "/dashboard/static/js/2.78f02286.chunk.js",
+    "static/js/2.78f02286.chunk.js.map": "/dashboard/static/js/2.78f02286.chunk.js.map",
     "index.html": "/dashboard/index.html",
-    "static/js/2.f3fc7c70.chunk.js.LICENSE.txt": "/dashboard/static/js/2.f3fc7c70.chunk.js.LICENSE.txt",
+    "static/js/2.78f02286.chunk.js.LICENSE.txt": "/dashboard/static/js/2.78f02286.chunk.js.LICENSE.txt",
     "static/media/arrow-down.7681f6e6.svg": "/dashboard/static/media/arrow-down.7681f6e6.svg",
     "static/media/arrow-up.e0895fae.svg": "/dashboard/static/media/arrow-up.e0895fae.svg",
     "static/media/dollar.d4a9bb64.svg": "/dashboard/static/media/dollar.d4a9bb64.svg",
@@ -18,7 +18,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.9c8f0810.js",
-    "static/js/2.f3fc7c70.chunk.js",
-    "static/js/main.637b049e.chunk.js"
+    "static/js/2.78f02286.chunk.js",
+    "static/js/main.cd1389ff.chunk.js"
   ]
 }
