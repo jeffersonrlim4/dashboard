@@ -2,6 +2,7 @@ import React, { useMemo, useState } from 'react';
 import { Container, Profile, Welcome, Username } from './styles';
 
 import Toogle from '../Toogle';
+
 import emojis from '../../utils/emojis';
 
 import { useTheme } from '../../hooks/theme';
