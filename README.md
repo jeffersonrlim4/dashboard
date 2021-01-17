@@ -45,3 +45,12 @@ No projeto não foi utilizando banco de dados e dados dinâmicos. As credenciais
 
 `Login: admin@admin.com`
 `Senha: 12345678`
+
+## Testes
+Para verificar se os testes do projeto estão ok utilize o comando:
+`yarn test`
+
+Para verificar os locais onde os testes estão fazendo cobertura de código basta utilizar o comando:
+`yarn test:coverage`
+
+No projeto irá criar uma pasta chamada `coverage`.  Dentro dela contém outra pasta chamada `lcov-report` que possui um arquivo chamado `index.html`. Abra esse arquivo para ter uma visão sobre a cobertura de testes no código.
