@@ -75,12 +75,10 @@ const Dashboard: React.FC = () =>{
 
     const totalGains = useMemo(() => {
         let total: number = 0;
-
         gains.forEach(item =>{
             const date = new Date(item.date);
             const year = date.getFullYear();
             const month = date.getMonth() + 1;
-
             if(month === monthSelected && year === yearSelected){
                 try{
                     total += Number(item.amount);
@@ -127,7 +125,7 @@ const Dashboard: React.FC = () =>{
                 icon: happyImg
             }
         }
-    }, [totalBalance]);
+    }, [totalBalance, totalExpenses, totalGains]);
 
     const relationsExpensesVersusGains = useMemo(() => {
         const total = totalGains + totalExpenses;

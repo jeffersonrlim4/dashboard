@@ -18,6 +18,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "react-switch": "^5.0.1",
+    "react-test-renderer": "^17.0.1",
     "recharts": "^1.8.5",
     "styled-components": "^5.2.1",
     "typescript": "^4.0.3",
@@ -30,12 +31,20 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:coverage": "react-scripts test --coverage --watchAll false",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
+    ]
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/pages/**/*.tsx",
+      "src/components/**/*.tsx",
+      "src/hooks/*.tsx"
     ]
   },
   "browserslist": {
@@ -51,9 +60,11 @@
     ]
   },
   "devDependencies": {
+    "@testing-library/react-hooks": "^5.0.0",
     "@types/react-router-dom": "^5.1.6",
     "@types/recharts": "^1.8.18",
     "@types/styled-components": "^5.1.4",
+    "axios-mock-adapter": "^1.19.0",
     "gh-pages": "^3.1.0"
   }
 }

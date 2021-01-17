@@ -1,5 +1,4 @@
 import React from 'react'
-import Switch from 'react-switch'
 
 import { Container, ToggleLabel, ToggleSelector } from './styles';
 
